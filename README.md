@@ -24,4 +24,4 @@ testing-server - HTTP testing server which responds to requests as configured.
 
 ## TLS
 
-To generate a self-signed certificate, use `tls.sh` and provide the certificate and key arguments when starting the server.
+To enable TLS, generate a self-signed certificate (`tls.sh` can do this for you), and provide the certificate and key arguments when starting the server.
