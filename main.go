@@ -8,8 +8,9 @@ import (
 )
 
 func main() {
-	flaggy.SetName("testing-server")
+	flaggy.SetName("http-testing-server")
 	flaggy.SetDescription("HTTP testing server which responds to requests as configured.")
+	flaggy.SetVersion("0.1.0-dev")
 
 	var path = "/"
 	flaggy.String(&path, "x", "path", "HTTP path pattern on which to listen. Pattern follows the same rules as the one documented in golang's http.ServceMux.")

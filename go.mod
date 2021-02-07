@@ -1,4 +1,4 @@
-module testing-server
+module http-testing-server
 
 go 1.15
 
