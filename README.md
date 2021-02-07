@@ -10,7 +10,7 @@ go build
 
 ## Usage
 ```sh
-testing-server - HTTP testing server which responds to requests as configured.
+http-testing-server - HTTP testing server which responds to requests as configured.
 
   Flags: 
        --version         Displays the program version string.
